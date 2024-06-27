@@ -1,4 +1,4 @@
-FROM thbello/basic-deploy:latest 
+FROM thbello/basic-deploy2:latest 
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
